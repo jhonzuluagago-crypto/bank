@@ -11,7 +11,7 @@ El objetivo principal es aplicar conceptos de programación y razonamiento lógi
 Para simplificar, los datos no se guardan en una base de datos real, sino en archivos **JSON** que actúan como fuente de información.
 
 El proyecto busca demostrar cómo aplicar la lógica de programación en un entorno más real, utilizando **estructuras de datos**, **manejo de archivos** y **organización por capas** dentro de un proyecto Java con **Spring Boot**.
-<img width="1544" height="395" alt="image" src="https://github.com/user-attachments/assets/a1ed1272-b4b3-408e-a9dd-d034d8b8c56a" />
+
 
 ---
 
@@ -56,6 +56,9 @@ Todo el flujo sigue la estructura clásica de un proyecto Java modular y ordenad
 ✅ Aplicar conceptos de lógica de programación
 ✅ Aprender a estructurar un proyecto Java con Maven
 ✅ Simular un sistema bancario simple con datos JSON
+
+EVIDENCIAS
+<img width="1594" height="768" alt="image" src="https://github.com/user-attachments/assets/923fcc42-af1d-43f4-b01a-f66d2b231a5d" />
 
 
 
