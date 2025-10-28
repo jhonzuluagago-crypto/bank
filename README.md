@@ -11,6 +11,7 @@ El objetivo principal es aplicar conceptos de programación y razonamiento lógi
 Para simplificar, los datos no se guardan en una base de datos real, sino en archivos **JSON** que actúan como fuente de información.
 
 El proyecto busca demostrar cómo aplicar la lógica de programación en un entorno más real, utilizando **estructuras de datos**, **manejo de archivos** y **organización por capas** dentro de un proyecto Java con **Spring Boot**.
+<img width="1544" height="395" alt="image" src="https://github.com/user-attachments/assets/a1ed1272-b4b3-408e-a9dd-d034d8b8c56a" />
 
 ---
 
