@@ -57,7 +57,7 @@ Todo el flujo sigue la estructura clásica de un proyecto Java modular y ordenad
 ✅ Aprender a estructurar un proyecto Java con Maven
 ✅ Simular un sistema bancario simple con datos JSON
 
-EVIDENCIAS
+## 1 EVIDENCIAS
 <img width="1594" height="768" alt="image" src="https://github.com/user-attachments/assets/923fcc42-af1d-43f4-b01a-f66d2b231a5d" />
 <img width="921" height="241" alt="image" src="https://github.com/user-attachments/assets/4b850db5-7b6a-4502-af37-4f842b6d185b" />
 <img width="1530" height="763" alt="image" src="https://github.com/user-attachments/assets/6d957978-4603-4264-9920-55eda32e4443" />
@@ -67,6 +67,11 @@ EVIDENCIAS
 <img width="1475" height="730" alt="image" src="https://github.com/user-attachments/assets/e65ad565-1ee8-48f3-a746-db1c7fa3571b" />
 <img width="1561" height="807" alt="image" src="https://github.com/user-attachments/assets/e17584cd-7049-4be0-a6b0-49f1777b81c8" />
 <img width="1556" height="790" alt="image" src="https://github.com/user-attachments/assets/e43f6cba-c4d3-4351-bb81-550ea9adced9" />
+
+## 2 EVIDENCIA SWAGGER
+<img width="1400" height="298" alt="image" src="https://github.com/user-attachments/assets/c9fe2c56-1a82-4c0d-8a47-ec6e42ab893b" />
+
+
 
 
 
