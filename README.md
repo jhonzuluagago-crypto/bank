@@ -69,7 +69,7 @@ Todo el flujo sigue la estructura clásica de un proyecto Java modular y ordenad
 <img width="1556" height="790" alt="image" src="https://github.com/user-attachments/assets/e43f6cba-c4d3-4351-bb81-550ea9adced9" />
 
 ## 2 EVIDENCIA SWAGGER
-<img width="1400" height="298" alt="image" src="https://github.com/user-attachments/assets/c9fe2c56-1a82-4c0d-8a47-ec6e42ab893b" />
+
 
 
 
