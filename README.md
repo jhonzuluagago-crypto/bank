@@ -1,17 +1,19 @@
 # 🏦 AppBank - Proyecto de Lógica y Solución de Problemas
 
-Este proyecto fue desarrollado como parte de la materia logica para solucion de problemas  
-El objetivo principal es aplicar conceptos de programación y razonamiento lógico mediante la creación de una aplicación bancaria básicahecha con Java y Spring Boot 🧠💻
+Este proyecto fue desarrollado como parte de la materia **Lógica para Solución de Problemas**.  
+Su objetivo principal es aplicar los fundamentos de la **programación estructurada, modular y orientada a objetos**, a través de una **simulación de sistema bancario** construida con **Java** y **Spring Boot** 🧠💻
 
 ---
 
 ## 📘 Descripción del Proyecto
 
-**AppBank** simula un pequeño sistema bancario que maneja información de **clientes** y **cuentas bancarias**.  
-Para simplificar, los datos no se guardan en una base de datos real, sino en archivos **JSON** que actúan como fuente de información.
+**AppBank** simula un sistema bancario básico que maneja información de **clientes**, **cuentas** y **transacciones**.  
+Permite registrar nuevos clientes, crear cuentas bancarias, realizar operaciones financieras y consultar la información registrada.
 
-El proyecto busca demostrar cómo aplicar la lógica de programación en un entorno más real, utilizando **estructuras de datos**, **manejo de archivos** y **organización por capas** dentro de un proyecto Java con **Spring Boot**.
+Para mantener la simplicidad, el proyecto no utiliza una base de datos real, sino que almacena los datos en **archivos JSON**, los cuales actúan como una base de datos simulada.  
+Esto facilita comprender cómo se gestiona la información sin depender de motores de base de datos.
 
+El propósito académico es demostrar el razonamiento lógico detrás de cada operación, aplicando estructuras de datos y flujos de control para resolver problemas reales mediante la programación.
 
 ---
 
@@ -23,11 +25,13 @@ El proyecto busca demostrar cómo aplicar la lógica de programación en un ento
 | 🌱 **Spring Boot** | Framework usado para crear la aplicación |
 | 🧩 **Maven** | Herramienta para gestionar dependencias |
 | 📂 **JSON** | Archivos usados como base de datos simulada |
+| 🧭 **Swagger UI** | Interfaz visual para documentar y ejecutar endpoints |
 | 📜 **Javadoc** | Documentación generada del código |
 
 ---
 
 ## 🧱 Estructura del Proyecto
+
 logica-solucion-problemas-main/
 ├── data/ # Archivos JSON con datos de ejemplo
 │ ├── accounts.json
@@ -40,22 +44,69 @@ logica-solucion-problemas-main/
 ├── pom.xml # Configuración de Maven
 └── README.md
 
+yaml
+Copiar código
 
 ---
 
-## 🧠 Lógica y Funcionamiento
+## 🧠 Lógica y Funcionamiento del Sistema
 
-Los clientes y cuentas se almacenan en los archivos JSON dentro de la carpeta data/.
+El sistema está diseñado bajo una arquitectura **en capas**, donde cada parte cumple una función específica:
 
-El sistema puede acceder a esos datos y procesarlos para realizar operaciones internas (por ejemplo, validar usuarios o mostrar información).
+- **Controladores:** manejan las peticiones HTTP y las respuestas REST.  
+- **Servicios:** contienen la lógica de negocio, es decir, las operaciones principales.  
+- **Modelos:** representan las entidades del sistema (cliente, cuenta, transacción).  
+- **Datos:** se leen y escriben en archivos JSON, los cuales simulan el almacenamiento persistente.  
 
-Todo el flujo sigue la estructura clásica de un proyecto Java modular y ordenado.
+Cada acción —como registrar un cliente, transferir dinero o consultar transacciones— sigue una secuencia lógica clara y validada.
 
- ## 🎯 Objetivos del Proyecto
+Por ejemplo:
+1. Se valida la existencia del cliente o la cuenta.
+2. Se procesa la operación solicitada.
+3. Se actualiza el archivo JSON correspondiente.
+4. Se devuelve una respuesta clara y estructurada al usuario.
 
+---
+
+## 🧩 Endpoints Principales (Swagger)
+
+El proyecto cuenta con documentación automática generada con **Swagger**.  
+Una vez en ejecución, puedes acceder a ella en:
+
+http://localhost:8080/swagger-ui/index.html
+
+markdown
+Copiar código
+
+### 📘 Endpoints disponibles
+
+| Método | Endpoint | Descripción |
+|--------|-----------|-------------|
+| **GET** | `/api/bank/customers` | Lista todos los clientes |
+| **POST** | `/api/bank/customers` | Crea un nuevo cliente |
+| **GET** | `/api/bank/customers/{customerId}` | Consulta un cliente específico |
+| **GET** | `/api/bank/customers/{customerId}/accounts` | Obtiene las cuentas de un cliente |
+| **POST** | `/api/bank/customers/{customerId}/accounts` | Crea una cuenta para el cliente |
+| **GET** | `/api/bank/accounts/{accountId}` | Consulta una cuenta por ID |
+| **POST** | `/api/bank/accounts/{accountId}/deposit` | Realiza un depósito |
+| **POST** | `/api/bank/accounts/{accountId}/withdraw` | Realiza un retiro |
+| **POST** | `/api/bank/accounts/{fromAccountId}/transfer` | Transfiere dinero entre cuentas |
+| **POST** | `/api/bank/accounts/{accountId}/apply-interest` | Aplica intereses a una cuenta |
+| **GET** | `/api/bank/accounts/{accountId}/transactions` | Muestra el historial de transacciones |
+
+---
+
+🎯 Objetivos del Proyecto
 ✅ Aplicar conceptos de lógica de programación
 ✅ Aprender a estructurar un proyecto Java con Maven
-✅ Simular un sistema bancario simple con datos JSON
+✅ Simular un sistema bancario simple con archivos JSON
+✅ Implementar controladores REST con Spring Boot
+✅ Documentar endpoints con Swagger
+✅ Fomentar buenas prácticas de diseño y documentación
+
+👨‍💻 Autor
+John Zuluaga
+Proyecto académico – Lógica para Solución de Problemas
 
 ## 1 EVIDENCIAS
 <img width="1594" height="768" alt="image" src="https://github.com/user-attachments/assets/923fcc42-af1d-43f4-b01a-f66d2b231a5d" />
