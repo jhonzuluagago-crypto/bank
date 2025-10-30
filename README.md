@@ -113,7 +113,7 @@ Proyecto académico – Lógica para Solución de Problemas
 
 ## 2 EVIDENCIA SWAGGER
 
-<img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/bc9b1847-640b-4e1b-9ca6-9283e2483235" />
+![WhatsApp Image 2025-10-29 at 8 26 45 PM](https://github.com/user-attachments/assets/89caa4f5-9633-4ce1-aaa2-16570ae59b27)
 <img width="1366" height="647" alt="image" src="https://github.com/user-attachments/assets/f74618f8-a404-426f-93b2-1b86611ad61d" />
 <img width="1366" height="647" alt="image" src="https://github.com/user-attachments/assets/6d7eb649-717a-4650-b7d8-75dc31edc36e" />
 <img width="1366" height="648" alt="image" src="https://github.com/user-attachments/assets/7bc110d4-8b3a-4dfd-bb26-2cd7896d4d00" />
