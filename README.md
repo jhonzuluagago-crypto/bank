@@ -44,8 +44,7 @@ logica-solucion-problemas-main/
 ├── pom.xml # Configuración de Maven
 └── README.md
 
-yaml
-Copiar código
+
 
 ---
 
@@ -71,13 +70,6 @@ Por ejemplo:
 ## 🧩 Endpoints Principales (Swagger)
 
 El proyecto cuenta con documentación automática generada con **Swagger**.  
-Una vez en ejecución, puedes acceder a ella en:
-
-http://localhost:8080/swagger-ui/index.html
-
-markdown
-Copiar código
-
 ### 📘 Endpoints disponibles
 
 | Método | Endpoint | Descripción |
@@ -120,6 +112,25 @@ Proyecto académico – Lógica para Solución de Problemas
 <img width="1556" height="790" alt="image" src="https://github.com/user-attachments/assets/e43f6cba-c4d3-4351-bb81-550ea9adced9" />
 
 ## 2 EVIDENCIA SWAGGER
+
+<img width="1366" height="682" alt="image" src="https://github.com/user-attachments/assets/bc9b1847-640b-4e1b-9ca6-9283e2483235" />
+<img width="1366" height="647" alt="image" src="https://github.com/user-attachments/assets/f74618f8-a404-426f-93b2-1b86611ad61d" />
+<img width="1366" height="647" alt="image" src="https://github.com/user-attachments/assets/6d7eb649-717a-4650-b7d8-75dc31edc36e" />
+<img width="1366" height="648" alt="image" src="https://github.com/user-attachments/assets/7bc110d4-8b3a-4dfd-bb26-2cd7896d4d00" />
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/7751e41e-0351-4dfe-9bad-1498dfcfc9a6" />
+<img width="1366" height="651" alt="image" src="https://github.com/user-attachments/assets/8290eede-a9cf-4333-9439-824d6c7ad26d" />
+<img width="1366" height="595" alt="image" src="https://github.com/user-attachments/assets/a837d185-2590-4a9f-a5c4-4f837dc9bf26" />
+<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/7da83f96-90d6-4348-9b47-58965effeffc" />
+<img width="1366" height="646" alt="image" src="https://github.com/user-attachments/assets/d072474c-2ff2-4b5b-8ff1-b86fe8890276" />
+<img width="1366" height="644" alt="image" src="https://github.com/user-attachments/assets/02218744-3def-454d-831e-f4db40389c73" />
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/43dd11f1-b502-424f-aac0-6603698117c3" />
+
+
+
+
+
+
+
 
 
 
